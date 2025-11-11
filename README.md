@@ -1,7 +1,5 @@
 # WEARec
-This is the official source code for our Paper Wavelet Enhanced Adaptive Frequency Filter for
- Sequential Recommendation.
-
+This is the official source code for our AAAI 2026 Paper ["Wavelet Enhanced Adaptive Frequency Filter for Sequential Recommendation"](https://arxiv.org/abs/2511.07028)
 
 ## Dataset
 In our experiments, we utilize four datasets, all stored in the `src/data` folder. Given the limited space for uploaded files, we have only uploaded one dataset, LastFM, as an example.
