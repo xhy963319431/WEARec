@@ -39,7 +39,7 @@ python main.py  --data_name [DATASET] \
                 --lr [LEARNING_RATE] \
                 --alpha [ALPHA] \ 
                 --num_heads [N_HEADS] \
-                --train_name [LOG_NAME]
+                --load_model [LOG_NAME]
                 --do_eval
 ```
 - Example for LastFM
