@@ -1,6 +1,9 @@
 # WEARec
 This is the official source code for our AAAI 2026 Paper ["Wavelet Enhanced Adaptive Frequency Filter for Sequential Recommendation"](https://arxiv.org/abs/2511.07028)
 
+## Overview
+![BSARec](fig/model_architecture.png)
+
 ## Dataset
 In our experiments, we utilize four datasets, all stored in the `src/data` folder. Given the limited space for uploaded files, we have only uploaded one dataset, LastFM, as an example.
 - The `src/data/*_same_target.npy` files are utilized for training DuoRec, SLIME4Rec and FEARec, both of which incorporate contrastive learning.
