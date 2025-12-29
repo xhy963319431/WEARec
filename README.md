@@ -48,7 +48,7 @@ python main.py  --data_name LastFM \
                 --lr 0.001 \
                 --alpha 0.3 \
                 --num_heads 2 \
-                --train_name WEARec_K_50_LastFM_0.5_0.001_0.3_2
+                --load_model WEARec_K_50_LastFM_0.5_0.001_0.3_2
                 --do_eval
 ```
 
