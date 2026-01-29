@@ -1,7 +1,6 @@
 # WEARec
 This is the official source code for our AAAI 2026 Paper (Oral Presentation) ["Wavelet Enhanced Adaptive Frequency Filter for Sequential Recommendation"](https://arxiv.org/abs/2511.07028)
 ## Related Materials
-📺 Tutorials & Blog
 We provide a video presentation and a detailed blog post (in Chinese) to help you better understand the core idea of WEARec.
 
 | **Video Presentation** | **WeChat Blog** |
