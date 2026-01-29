@@ -6,11 +6,11 @@ We provide a video presentation and a detailed blog post (in Chinese) to help yo
 
 | **Video Presentation** | **WeChat Blog** |
 | :---: | :---: |
-| [![Video Label](https://img.shields.io/badge/Bilibili-Play_Video-blue?logo=bilibili)](https://www.bilibili.com/video/BV1BSzsBYEGT/?share_source=copy_web&vd_source=bd32781331d243868263515bf1605450&t=3659) <br> <a href="https://www.bilibili.com/video/BV1BSzsBYEGT/?share_source=copy_web&vd_source=bd32781331d243868263515bf1605450&t=3659"><img src="您的视频封面截图.png" width="300px" alt="Video Cover"></a> | [![Blog Label](https://img.shields.io/badge/WeChat-Read_Article-07C160?logo=wechat)](https://mp.weixin.qq.com/s/bj4x3tC8BWuPmBhAq5aREQ) <br> <a href="https://mp.weixin.qq.com/s/bj4x3tC8BWuPmBhAq5aREQ"><img src="您的公众号封面或二维码.png" width="300px" alt="Blog Cover"></a> |
+| [![Video Label](https://img.shields.io/badge/Bilibili-Play_Video-blue?logo=bilibili)](https://www.bilibili.com/video/BV1BSzsBYEGT/?share_source=copy_web&vd_source=bd32781331d243868263515bf1605450&t=3659) <br> <a href="https://www.bilibili.com/video/BV1BSzsBYEGT/?share_source=copy_web&vd_source=bd32781331d243868263515bf1605450&t=3659"><img src="fig/Video.png" width="150px" alt="Video Cover"></a> | [![Blog Label](https://img.shields.io/badge/WeChat-Read_Article-07C160?logo=wechat)](https://mp.weixin.qq.com/s/bj4x3tC8BWuPmBhAq5aREQ) <br> <a href="https://mp.weixin.qq.com/s/bj4x3tC8BWuPmBhAq5aREQ"><img src="fig/Wechat Code.png" width="80px" alt="Blog Cover"></a> |
 
 ## Overview
 The model architecture of WEARec is similar to the transformer encoder. It first generates item embedding with positional embedding through the embedding layer , and then extracts user preference from the frequency domain by replacing the self-attention module with the wavelet feature enhancement module and dynamic frequency-domain filtering module. Their details are shown on both sides. Finally, a prediction layer computes a recommendation score for all candidate items.
-![WEARec](WEARec.png)
+![WEARec](fig/WEARec.png)
 
 ## Dataset
 In our experiments, we utilize four datasets, all stored in the `src/data` folder. Given the limited space for uploaded files, we have only uploaded one dataset, LastFM, as an example.
