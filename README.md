@@ -1,16 +1,94 @@
 # WEARec
 This is the official source code for our AAAI 2026 Paper (Oral Presentation) ["Wavelet Enhanced Adaptive Frequency Filter for Sequential Recommendation"](https://arxiv.org/abs/2511.07028)
+
 ## Related Materials
+### 📺 Tutorials & Blog
 We provide a video presentation and a detailed blog post (in Chinese) to help you better understand the core idea of WEARec.
 
 | **Video Presentation** | **WeChat Blog** |
 | :---: | :---: |
 | [![Video Label](https://img.shields.io/badge/Bilibili-Play_Video-blue?logo=bilibili)](https://www.bilibili.com/video/BV1BSzsBYEGT/?share_source=copy_web&vd_source=bd32781331d243868263515bf1605450&t=3659) <br> <a href="https://www.bilibili.com/video/BV1BSzsBYEGT/?share_source=copy_web&vd_source=bd32781331d243868263515bf1605450&t=3659"><img src="fig/Video.png" width="150px" alt="Video Cover"></a> | [![Blog Label](https://img.shields.io/badge/WeChat-Read_Article-07C160?logo=wechat)](https://mp.weixin.qq.com/s/bj4x3tC8BWuPmBhAq5aREQ) <br> <a href="https://mp.weixin.qq.com/s/bj4x3tC8BWuPmBhAq5aREQ"><img src="fig/Wechat Code.png" width="80px" alt="Blog Cover"></a> |
+### 💡 Video & Slides & Poster
+We offer an English video tutorial, the conference poster, and presentation slides to help you better understand the core idea of WEARec.
+Download Links: [Google Drive](https://drive.google.com/drive/folders/1oFiXopeBDUW6JagoWIfal14hC214UrVW?usp=sharing) | [Baidu Netdisk](https://pan.baidu.com/s/1D9V_FhRmAHRJYX0HyLQ9Mw?pwd=6666)
+## Long-Sequence Experiment Results Update
+We noticed that [TVRec](https://arxiv.org/abs/2510.25259) (NeurIPS 2025) conducted experiments on the FourSquare dataset to test performance in long-sequence settings. In response, we provide the corresponding performance benchmarks for WEARec here.
+<table>
+  <tr>
+    <th rowspan="2">Metric</th>
+    <th colspan="2">ML-1M</th>
+    <th colspan="2">LastFM</th>
+    <th colspan="2">FourSquare</th>
+  </tr>
+  <tr>
+    <th>Ours</th>
+    <th>TVRec</th>
+    <th>Ours</th>
+    <th>TVRec</th>
+    <th>Ours</th>
+    <th>TVRec</th>
+  </tr>
+  <tr>
+    <td>HR@5</td>
+    <td>0.2321</td>
+    <td>0.2255</td>
+    <td>——</td>
+    <td>0.0661</td>
+    <td>0.0194</td>
+    <td>0.0148</td>
+  </tr>
+  <tr>
+    <td>HR@10</td>
+    <td>0.3334</td>
+    <td>0.3232</td>
+    <td>——</td>
+    <td>0.0972</td>
+    <td>0.0231</td>
+    <td>0.0212</td>
+  </tr>
+   <tr>
+    <td>HR@20</td>
+    <td>0.4421</td>
+    <td>0.4306</td>
+    <td>——</td>
+    <td>0.1477</td>
+    <td>0.0342</td>
+    <td>0.0323</td>
+  </tr>
+  <tr>
+    <td>NDCG@5</td>
+    <td>0.1577</td>
+    <td>0.1572</td>
+    <td>——</td>
+    <td>0.0456</td>
+    <td>0.0148</td>
+    <td>0.0108</td>
+  </tr>
+  <tr>
+    <td>NDCG@10</td>
+    <td>0.1904</td>
+    <td>0.1886</td>
+    <td>——</td>
+    <td>0.0556</td>
+    <td>0.0160</td>
+    <td>0.0129</td>
+  </tr>
+  <tr>
+    <td>NDCG@20</td>
+    <td>0.2179</td>
+    <td>0.2157</td>
+    <td>——</td>
+    <td>0.0682</td>
+    <td>0.0188</td>
+    <td>0.0158</td>
+  </tr>
+</table>
 
 ## Overview
 The model architecture of WEARec is similar to the transformer encoder. It first generates item embedding with positional embedding through the embedding layer , and then extracts user preference from the frequency domain by replacing the self-attention module with the wavelet feature enhancement module and dynamic frequency-domain filtering module. Their details are shown on both sides. Finally, a prediction layer computes a recommendation score for all candidate items.
 ![WEARec](fig/WEARec.png)
 
+## 
 ## Dataset
 In our experiments, we utilize four datasets, all stored in the `src/data` folder. Given the limited space for uploaded files, we have only uploaded one dataset, LastFM, as an example.
 - The `src/data/*_same_target.npy` files are utilized for training contrastive learning baselines (DuoRec, SLIME4Rec, and FEARec).
