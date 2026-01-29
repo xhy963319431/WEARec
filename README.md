@@ -32,8 +32,8 @@ We noticed that [TVRec](https://arxiv.org/abs/2510.25259) (NeurIPS 2025) conduct
     <td>HR@5</td>
     <td>0.2321</td>
     <td>0.2255</td>
-    <td>——</td>
     <td>0.0661</td>
+    <td>——</td>
     <td>0.0194</td>
     <td>0.0148</td>
   </tr>
@@ -41,8 +41,8 @@ We noticed that [TVRec](https://arxiv.org/abs/2510.25259) (NeurIPS 2025) conduct
     <td>HR@10</td>
     <td>0.3334</td>
     <td>0.3232</td>
-    <td>——</td>
     <td>0.0972</td>
+    <td>——</td>
     <td>0.0231</td>
     <td>0.0212</td>
   </tr>
@@ -50,8 +50,8 @@ We noticed that [TVRec](https://arxiv.org/abs/2510.25259) (NeurIPS 2025) conduct
     <td>HR@20</td>
     <td>0.4421</td>
     <td>0.4306</td>
-    <td>——</td>
     <td>0.1477</td>
+    <td>——</td>
     <td>0.0342</td>
     <td>0.0323</td>
   </tr>
@@ -59,8 +59,8 @@ We noticed that [TVRec](https://arxiv.org/abs/2510.25259) (NeurIPS 2025) conduct
     <td>NDCG@5</td>
     <td>0.1577</td>
     <td>0.1572</td>
-    <td>——</td>
     <td>0.0456</td>
+    <td>——</td>
     <td>0.0148</td>
     <td>0.0108</td>
   </tr>
@@ -68,8 +68,8 @@ We noticed that [TVRec](https://arxiv.org/abs/2510.25259) (NeurIPS 2025) conduct
     <td>NDCG@10</td>
     <td>0.1904</td>
     <td>0.1886</td>
-    <td>——</td>
     <td>0.0556</td>
+    <td>——</td>
     <td>0.0160</td>
     <td>0.0129</td>
   </tr>
@@ -77,8 +77,8 @@ We noticed that [TVRec](https://arxiv.org/abs/2510.25259) (NeurIPS 2025) conduct
     <td>NDCG@20</td>
     <td>0.2179</td>
     <td>0.2157</td>
-    <td>——</td>
     <td>0.0682</td>
+    <td>——</td>
     <td>0.0188</td>
     <td>0.0158</td>
   </tr>
