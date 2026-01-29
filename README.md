@@ -1,5 +1,12 @@
 # WEARec
-This is the official source code for our AAAI 2026 Paper ["Wavelet Enhanced Adaptive Frequency Filter for Sequential Recommendation"](https://arxiv.org/abs/2511.07028)
+This is the official source code for our AAAI 2026 Paper (Oral Presentation) ["Wavelet Enhanced Adaptive Frequency Filter for Sequential Recommendation"](https://arxiv.org/abs/2511.07028)
+## Related Materials
+📺 Tutorials & Blog
+We provide a video presentation and a detailed blog post (in Chinese) to help you better understand the core idea of WEARec.
+
+| **Video Presentation** | **WeChat Blog** |
+| :---: | :---: |
+| [![Video Label](https://img.shields.io/badge/Bilibili-Play_Video-blue?logo=bilibili)](https://www.bilibili.com/video/BV1BSzsBYEGT/?share_source=copy_web&vd_source=bd32781331d243868263515bf1605450&t=3659) <br> <a href="https://www.bilibili.com/video/BV1BSzsBYEGT/?share_source=copy_web&vd_source=bd32781331d243868263515bf1605450&t=3659"><img src="您的视频封面截图.png" width="300px" alt="Video Cover"></a> | [![Blog Label](https://img.shields.io/badge/WeChat-Read_Article-07C160?logo=wechat)](https://mp.weixin.qq.com/s/bj4x3tC8BWuPmBhAq5aREQ) <br> <a href="https://mp.weixin.qq.com/s/bj4x3tC8BWuPmBhAq5aREQ"><img src="您的公众号封面或二维码.png" width="300px" alt="Blog Cover"></a> |
 
 ## Overview
 The model architecture of WEARec is similar to the transformer encoder. It first generates item embedding with positional embedding through the embedding layer , and then extracts user preference from the frequency domain by replacing the self-attention module with the wavelet feature enhancement module and dynamic frequency-domain filtering module. Their details are shown on both sides. Finally, a prediction layer computes a recommendation score for all candidate items.
@@ -7,8 +14,8 @@ The model architecture of WEARec is similar to the transformer encoder. It first
 
 ## Dataset
 In our experiments, we utilize four datasets, all stored in the `src/data` folder. Given the limited space for uploaded files, we have only uploaded one dataset, LastFM, as an example.
-- The `src/data/*_same_target.npy` files are utilized for training DuoRec, SLIME4Rec and FEARec, both of which incorporate contrastive learning.
-
+- The `src/data/*_same_target.npy` files are utilized for training contrastive learning baselines (DuoRec, SLIME4Rec, and FEARec).
+  
 ## Quick Start
 ### Environment Setting
 ```
@@ -35,7 +42,7 @@ python main.py  --data_name LastFM \
                 --train_name WEARec_LastFM
 ```
 
-### How to test pretrained BSARec
+### How to test pretrained WEARec
 - Note that pretrained model (.pt file) must be in `src/output`
 - `load_model`: pretrained model name without .pt
 ```
