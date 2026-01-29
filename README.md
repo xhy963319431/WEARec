@@ -170,3 +170,7 @@ If you have any inquiries regarding our paper or codes, feel free to reach out v
 
 ## Acknowledgement
 This repository is based on [BSARec](https://github.com/yehjin-shin/BSARec).
+
+<div align="center">
+<p>⭐ Star this repository if you find it helpful!</p>
+</div>
