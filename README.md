@@ -13,6 +13,8 @@ We offer an English video tutorial, the conference poster, and presentation slid
 Download Links: [Google Drive](https://drive.google.com/drive/folders/1oFiXopeBDUW6JagoWIfal14hC214UrVW?usp=sharing) | [Baidu Netdisk](https://pan.baidu.com/s/1D9V_FhRmAHRJYX0HyLQ9Mw?pwd=6666)
 ## Long-Sequence Experiment Results Update
 We noticed that [TVRec](https://arxiv.org/abs/2510.25259) (NeurIPS 2025) conducted experiments on the FourSquare dataset to test performance in long-sequence settings ($N=200$). In response, we provide the corresponding performance benchmarks for WEARec here.
+
+
 <table>
   <tr>
     <th rowspan="2">Metric</th>
@@ -33,7 +35,7 @@ We noticed that [TVRec](https://arxiv.org/abs/2510.25259) (NeurIPS 2025) conduct
     <td>0.2321</td>
     <td>0.2255</td>
     <td>0.0661</td>
-    <td>--</td>
+    <td style="text-align: center;">——</td>
     <td>0.0194</td>
     <td>0.0148</td>
   </tr>
@@ -42,7 +44,7 @@ We noticed that [TVRec](https://arxiv.org/abs/2510.25259) (NeurIPS 2025) conduct
     <td>0.3334</td>
     <td>0.3232</td>
     <td>0.0972</td>
-    <td>--</td>
+    <td style="text-align: center;">——</td>
     <td>0.0231</td>
     <td>0.0212</td>
   </tr>
@@ -51,7 +53,7 @@ We noticed that [TVRec](https://arxiv.org/abs/2510.25259) (NeurIPS 2025) conduct
     <td>0.4421</td>
     <td>0.4306</td>
     <td>0.1477</td>
-    <td>--</td>
+    <td style="text-align: center;">——</td>
     <td>0.0342</td>
     <td>0.0323</td>
   </tr>
@@ -60,7 +62,7 @@ We noticed that [TVRec](https://arxiv.org/abs/2510.25259) (NeurIPS 2025) conduct
     <td>0.1577</td>
     <td>0.1572</td>
     <td>0.0456</td>
-    <td>--</td>
+    <td style="text-align: center;">——</td>
     <td>0.0148</td>
     <td>0.0108</td>
   </tr>
@@ -69,7 +71,7 @@ We noticed that [TVRec](https://arxiv.org/abs/2510.25259) (NeurIPS 2025) conduct
     <td>0.1904</td>
     <td>0.1886</td>
     <td>0.0556</td>
-    <td>--</td>
+    <td style="text-align: center;">——</td>
     <td>0.0160</td>
     <td>0.0129</td>
   </tr>
@@ -78,7 +80,7 @@ We noticed that [TVRec](https://arxiv.org/abs/2510.25259) (NeurIPS 2025) conduct
     <td>0.2179</td>
     <td>0.2157</td>
     <td>0.0682</td>
-    <td>--</td>
+    <td style="text-align: center;">——</td>
     <td>0.0188</td>
     <td>0.0158</td>
   </tr>
