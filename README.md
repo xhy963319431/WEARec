@@ -12,7 +12,7 @@ We provide a video presentation and a detailed blog post (in Chinese) to help yo
 We offer an English video tutorial, the conference poster, and presentation slides to help you better understand the core idea of WEARec.
 Download Links: [Google Drive](https://drive.google.com/drive/folders/1oFiXopeBDUW6JagoWIfal14hC214UrVW?usp=sharing) | [Baidu Netdisk](https://pan.baidu.com/s/1D9V_FhRmAHRJYX0HyLQ9Mw?pwd=6666)
 ## Long-Sequence Experiment Results Update
-We noticed that [TVRec](https://arxiv.org/abs/2510.25259) (NeurIPS 2025) conducted experiments on the FourSquare dataset to test performance in long-sequence settings. In response, we provide the corresponding performance benchmarks for WEARec here.
+We noticed that [TVRec](https://arxiv.org/abs/2510.25259) (NeurIPS 2025) conducted experiments on the FourSquare dataset to test performance in long-sequence settings ($N=200$). In response, we provide the corresponding performance benchmarks for WEARec here.
 <table>
   <tr>
     <th rowspan="2">Metric</th>
