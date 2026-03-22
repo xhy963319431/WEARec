@@ -35,7 +35,7 @@ We noticed that [TVRec](https://arxiv.org/abs/2510.25259) (NeurIPS 2025) conduct
     <td>0.2321</td>
     <td>0.2255</td>
     <td>0.0661</td>
-    <td style="text-align: center;">——</td>
+    <td>——</td>
     <td>0.0194</td>
     <td>0.0148</td>
   </tr>
@@ -44,7 +44,7 @@ We noticed that [TVRec](https://arxiv.org/abs/2510.25259) (NeurIPS 2025) conduct
     <td>0.3334</td>
     <td>0.3232</td>
     <td>0.0972</td>
-    <td style="text-align: center;">——</td>
+    <td>——</td>
     <td>0.0231</td>
     <td>0.0212</td>
   </tr>
@@ -53,7 +53,7 @@ We noticed that [TVRec](https://arxiv.org/abs/2510.25259) (NeurIPS 2025) conduct
     <td>0.4421</td>
     <td>0.4306</td>
     <td>0.1477</td>
-    <td style="text-align: center;">——</td>
+    <td>——</td>
     <td>0.0342</td>
     <td>0.0323</td>
   </tr>
@@ -62,7 +62,7 @@ We noticed that [TVRec](https://arxiv.org/abs/2510.25259) (NeurIPS 2025) conduct
     <td>0.1577</td>
     <td>0.1572</td>
     <td>0.0456</td>
-    <td style="text-align: center;">——</td>
+    <td>——</td>
     <td>0.0148</td>
     <td>0.0108</td>
   </tr>
@@ -71,7 +71,7 @@ We noticed that [TVRec](https://arxiv.org/abs/2510.25259) (NeurIPS 2025) conduct
     <td>0.1904</td>
     <td>0.1886</td>
     <td>0.0556</td>
-    <td style="text-align: center;">——</td>
+    <td>——</td>
     <td>0.0160</td>
     <td>0.0129</td>
   </tr>
@@ -80,7 +80,7 @@ We noticed that [TVRec](https://arxiv.org/abs/2510.25259) (NeurIPS 2025) conduct
     <td>0.2179</td>
     <td>0.2157</td>
     <td>0.0682</td>
-    <td style="text-align: center;">——</td>
+    <td>——</td>
     <td>0.0188</td>
     <td>0.0158</td>
   </tr>
@@ -156,14 +156,14 @@ python main.py  --model_type SASRec \
 ## Citation
 If you find our work useful, please consider citing our paper:
 ```
-@misc{xu2025waveletenhancedadaptivefrequency,
-      title={Wavelet Enhanced Adaptive Frequency Filter for Sequential Recommendation}, 
-      author={Huayang Xu and Huanhuan Yuan and Guanfeng Liu and Junhua Fang and Lei Zhao and Pengpeng Zhao},
-      year={2025},
-      eprint={2511.07028},
-      archivePrefix={arXiv},
-      primaryClass={cs.IR},
-      url={https://arxiv.org/abs/2511.07028}, 
+@inproceedings{xu2026wavelet,
+  title={Wavelet Enhanced Adaptive Frequency Filter for Sequential Recommendation},
+  author={Xu, Huayang and Yuan, Huanhuan and Liu, Guanfeng and Fang, Junhua and Zhao, Lei and Zhao, Pengpeng},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={40},
+  number={19},
+  pages={16058--16065},
+  year={2026}
 }
 ```
 
