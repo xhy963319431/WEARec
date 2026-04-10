@@ -1,5 +1,5 @@
 # WEARec
-This is the official source code for our AAAI 2026 Paper (Oral Presentation) ["Wavelet Enhanced Adaptive Frequency Filter for Sequential Recommendation"](https://arxiv.org/abs/2511.07028)
+This is the official source code for our AAAI 2026 Paper (Oral Presentation) ["Wavelet Enhanced Adaptive Frequency Filter for Sequential Recommendation"](https://arxiv.org/abs/2511.07028) . If you plan to compare performance using the RecBole framework and WEARec, please refer to the other [repository](https://github.com/xhy963319431/WEARec_With_RecBole).
 
 ## Related Materials
 ### 📺 Tutorials & Blog
